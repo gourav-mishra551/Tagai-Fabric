@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Slider from './components/Slider/Slider'
 import Fabric from './components/Fabric/Fabric'
 import Images from './images'
+import Footer from './components/Footer/Footer'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Slider images={Images} />
       <Fabric/>
+      <Footer/>
     </>
   )
 }

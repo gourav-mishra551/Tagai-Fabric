@@ -99,13 +99,19 @@ const images = [
     id: 20,
     src: "https://cdn.pixabay.com/photo/2021/11/12/13/14/sweater-6788998_640.jpg",
     text: "Sweater Yarn",
-  }
+  },
 ];
 
 const Fabric = () => {
   return (
     <div className="heading-fabric">
       <h1 className="febric-heading">Choose Fabric From 10,000+ designs</h1>
+      <p className="fabric-para">
+        Embrace the sun-kissed allure of summer with our exquisite collection of
+        premium summer fabrics. From breathable cotton blends to lightweight
+        linens, our assortment offers a variety of fabric materials to enhance
+        your summer style effortlessly.
+      </p>
       <div className="fabric-main">
         {images.map(({ id, src, text }) => (
           <div key={id} className="fabric-div">
@@ -113,6 +119,14 @@ const Fabric = () => {
             <p className="fabric-text">{text}</p>
           </div>
         ))}
+      </div>
+      <div className="womens">
+        <img src="https://fabmyntra.com/cdn/shop/files/Website_1200_x_400px_l_b6ae5bb7-5eb3-4436-a963-981b4261563f_900x.png?v=1684502790" alt="women" />
+        <div className="left">
+          <h1>Women's collection </h1>
+          <p>There is no other apparel that makes a woman look as poised as the saree.</p>
+          <button >View More</button>
+        </div>
       </div>
     </div>
   );

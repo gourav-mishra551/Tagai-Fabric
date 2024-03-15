@@ -13,10 +13,10 @@
     color: black;
     font-size: 18px;
   }
-  
   /* navbar */
   .navbar {
-    background-color: aliceblue;
+    background: rgb(0,70,88);
+    background: linear-gradient(180deg, rgba(0,70,88,1) 25%, rgba(51,132,154,1) 85%, rgba(255,255,255,1) 100%);;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@
       text-align: start;
       width: 100%;
       transition: 0.7s ease-in-out;
-      background-color: aliceblue;
+      background-color: rgb(0,70,88);;
       padding: 10px;
     }
   
