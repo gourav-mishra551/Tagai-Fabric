@@ -1,0 +1,38 @@
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child img{
+    height: 80px;
+    width: 80px;
+}
+
+.child h1{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 680px){
+    .parent{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .child h1{
+        font-size: 16px;
+    }
+    .child img{
+        height: 40px;
+        width: 40px;
+    }
+}

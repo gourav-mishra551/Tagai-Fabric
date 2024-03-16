@@ -120,6 +120,7 @@ const Fabric = () => {
           </div>
         ))}
       </div>
+      <div className="women-main">
       <div className="womens">
         <img src="https://fabmyntra.com/cdn/shop/files/Website_1200_x_400px_l_b6ae5bb7-5eb3-4436-a963-981b4261563f_900x.png?v=1684502790" alt="women" />
         <div className="left">
@@ -128,7 +129,9 @@ const Fabric = () => {
           <button >View More</button>
         </div>
       </div>
+      </div>
     </div>
+
   );
 };
 

@@ -8,15 +8,15 @@
     list-style: none;
   }
   
-  a {
+  .navbar a {
     text-decoration: none;
-    color: black;
+    color: #004658;
     font-size: 18px;
+    font-weight: 600;
+
   }
   /* navbar */
   .navbar {
-    background: rgb(0,70,88);
-    background: linear-gradient(180deg, rgba(0,70,88,1) 25%, rgba(51,132,154,1) 85%, rgba(255,255,255,1) 100%);;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -96,3 +96,5 @@
       margin: 16px 0;
     }
   }
+
+  
