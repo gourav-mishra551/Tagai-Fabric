@@ -124,7 +124,6 @@ const Fabric = () => {
       <div className="womens">
         <div className="figure">
         <img class="Sirv image-main" src="./Designer (2).png" />
-        <img className="Sirv image-hover" src="./Designer (1).png" alt="saree" />
         </div>
         <div className="left">
           <h1>Women's collection </h1>
