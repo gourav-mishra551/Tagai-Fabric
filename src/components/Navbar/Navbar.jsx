@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="App"> 
       <div id="scroll-container">
-        <div id="scroll-text"> <p>World Wide  Shipping  call +(91)9810801688</p></div>
+        <div id="scroll-text"> <p>World Wide  Shipping  call +(91) 9810801688</p></div>
       </div>
       <header className="App-header">
         <nav className={`${styles.navbar}`}>

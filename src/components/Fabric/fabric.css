@@ -175,6 +175,9 @@
     font-weight: 600;
     text-align: center;
   }
+  .fabric-para{
+    margin-bottom: 25px;
+  }
   .womens{
     display: flex;
     justify-content: center;
