@@ -15,7 +15,6 @@ const Slider = ({images}) => {
                 <i className="fas fa-angle-left"></i>
               </button>
              <div className="slider--feature">
-                <h1 className="feature--title">TAGAI</h1>
                 <p ref={slideText} className="feature--text"></p>
                 <button className="feature__btn">Shop Fabric</button>
               </div>

@@ -21,7 +21,9 @@
 }
 
 .slider--feature {
-  text-align: center;
+  text-align:center;
+  position: relative;
+  bottom: -10px;
 }
 
 .feature--title {

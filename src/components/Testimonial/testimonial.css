@@ -29,3 +29,13 @@
     font-size: 38px;
     text-align: center;
 }
+
+@media screen and (max-width: 680px){
+  
+  .heading{
+      font-size: 28px;
+      width: 70vw;
+      margin: 0 auto;
+      margin-bottom: 30px;
+  }
+}

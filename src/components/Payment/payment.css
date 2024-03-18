@@ -32,7 +32,11 @@
 .child h3{
     margin-top: 10px;
 }
-
+.headerImg{
+    margin-top: 10vh;
+    height: 80vh;
+    width: 100vw;
+}
 @media screen and (max-width: 680px){
     .parent{
         display: grid;
@@ -49,6 +53,7 @@
     }
     .child h3{
         font-size: 16px;
+        text-align: center;
     }
     .child img{
         height: 40px;
