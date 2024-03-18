@@ -94,11 +94,29 @@
     text-transform: uppercase;
     font-weight: 700;
   }
-  
+  .slider{
+    height: 25vh;
+  }
+  .slider--content{
+    height: 25vh;
+  }
   .feature--text {
-    font-size: 1rem;
+    font-size: 14px;
     color: #fff;
     margin: 1rem 0;
+  }
+  .feature__btn{
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .slider__btn-left{
+    font-size: 2rem;
+  }
+  .slider__btn-right{
+    font-size: 2rem;
   }
 }
 

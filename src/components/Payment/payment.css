@@ -35,7 +35,7 @@
 .headerImg{
     margin-top: 10vh;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 @media screen and (max-width: 680px){
     .parent{
@@ -58,5 +58,10 @@
     .child img{
         height: 40px;
         width: 40px;
+    }
+    .headerImg{
+        margin-top: 10vh;
+        height: 35vh;
+        width: 100%;
     }
 }

@@ -153,9 +153,13 @@
   .left button{
     left: 30%;
   }
+  .left p{
+    padding: 0 15px;
+  }
   .heading-fabric h1 {
     font-size: 28px;
     text-align: center;
+    padding: 0 15px;
   }
   .fabric-div {
     height: auto;
@@ -180,7 +184,11 @@
   .womens img{
     height: 40vh;
     width: 80vw;
+    margin: 0 auto;
     margin-top: 12vh;
     margin-bottom: 10vh;
   }
+ .figure{
+  margin-left: 10px;
+ }
 }
