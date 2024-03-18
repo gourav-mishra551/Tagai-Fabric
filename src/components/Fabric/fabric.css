@@ -46,11 +46,6 @@
   margin-bottom: 80px;
 }
 
-.women-main{
-  background-image: url("./9305950.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .womens {
   height: auto;
   width: 80vw;
@@ -60,9 +55,28 @@
 
 }
 .womens img {
-  height: 100vh;
-  width: 50vw;
-  border-radius: 25%;
+  height: 90vh;
+  width: 40vw;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.figure {
+  position: relative;
+  width: 360px; /* can be omitted for a regular non-lazy image */
+  max-width: 100%;
+}
+.figure img.Sirv.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.figure:hover img.Sirv.image-hover {
+  opacity: 1;
 }
 .left h1 {
   position: relative;
@@ -133,6 +147,15 @@
     align-items: center;
     justify-content: center;
   }
+  .left h1{
+    margin-top: 40px;
+  }
+  .left button{
+    left: 30%;
+  }
+  .heading-fabric h1 {
+    font-size: 28px;
+  }
   .fabric-div {
     height: auto;
     width: 120px;
@@ -151,10 +174,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column-reverse;
   }
   .womens img{
     height: 40vh;
     width: 80vw;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
   }
 }

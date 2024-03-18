@@ -5,7 +5,7 @@ import Fabric from './components/Fabric/Fabric'
 import Images from './images'
 import Footer from './components/Footer/Footer'
 import Payment from './components/Payment/Payment'
-
+import Testimonial from './components/Testimonial/Testiomonial'
 function App() {
   
 
@@ -15,6 +15,8 @@ function App() {
       <Slider images={Images} />
       <Fabric/>
       <Payment/>
+      
+     <Testimonial/>
       <Footer/>
     </>
   )

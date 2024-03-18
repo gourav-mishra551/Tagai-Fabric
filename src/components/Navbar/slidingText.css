@@ -11,8 +11,8 @@
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 10s linear infinite;
-    animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 20s linear infinite;
     font-weight: 600;
     margin-top: 10px;
     letter-spacing: 5px;

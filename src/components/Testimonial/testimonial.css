@@ -1,0 +1,31 @@
+.carousel-inner {
+    height: 538px;
+  }
+  
+  .carousel-control-prev {
+    height: 50px;
+    left: unset !important;
+    top: 400px !important;
+    right: 50%;
+    color: gray !important;
+  }
+  
+  .carousel-control-next {
+    height: 50px;
+    right: unset !important;
+    top: 400px !important;
+    left: 50%;
+    color: gray !important;
+  }
+
+  .heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-color: #b88846;
+    text-underline-offset: 12px;
+    font-size: 38px;
+    text-align: center;
+}
