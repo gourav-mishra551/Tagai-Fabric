@@ -3,8 +3,8 @@ import "./payment.css";
 
 const Payment = () => {
   return (
-    <>
-    
+   
+    <div className="payment-main">
     <h1  className="heading ">We Care About Our Customers</h1>
     <div className="parent">
       <div className="child">
@@ -26,7 +26,8 @@ const Payment = () => {
     </div>
 
     <img className="headerImg" src="./newHeader.png" alt="head" />
-    </>
+    </div>
+   
   );
 };
 

@@ -1,23 +1,22 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import Slider from './components/Slider/Slider'
-import Fabric from './components/Fabric/Fabric'
-import Images from './images'
-import Footer from './components/Footer/Footer'
-import Payment from './components/Payment/Payment'
-import Testimonial from './components/Testimonial/Testiomonial'
+import Home from './Pages/Home/Home'
+import {BrowserRouter ,Route , Routes } from 'react-router-dom';
+import Products from './Pages/Products/Products';
+import Contact from './Pages/Contact/Contact';
+
 function App() {
   
 
   return (
     <>
-      <Navbar/>
-      <Slider images={Images} />
-      <Fabric/>
-      <Payment/>
+    <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path='/products' element = {<Products/>}></Route>
+      <Route path='/contact' element = {<Contact/>}></Route>
       
-     <Testimonial/>
-      <Footer/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }

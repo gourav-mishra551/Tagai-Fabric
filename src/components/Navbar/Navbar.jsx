@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import "./slidingText.css";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -26,26 +27,33 @@ function Navbar() {
             Tagai{" "}
           </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
-            <li onClick={removeActive}>
+            <Link to= '/'>            <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
                 Home
               </a>
             </li>
+            </Link>
+
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
                 Catalog
               </a>
             </li>
+            <Link to= "/products">
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
                 All products
               </a>
             </li>
+            </Link>
+
+            <Link to = "/contact">
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
                 Contact
               </a>
             </li>
+            </Link>
           </ul>
           <div
             className={`${styles.hamburger} ${isActive ? styles.active : ""}`}

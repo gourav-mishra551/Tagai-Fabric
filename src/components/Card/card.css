@@ -1,0 +1,15 @@
+.heading-card{
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #b88846;
+  text-underline-offset: 12px;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 680px){
+    .heading-card{
+        font-size: 28px;
+    }
+}
