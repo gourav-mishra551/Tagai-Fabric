@@ -65,16 +65,16 @@
 }
 
 
-.left h1 {
+.lefts h1 {
   position: relative;
   top: 30%;
 }
-.left p {
+.lefts p {
   position: relative;
   top: 32%;
   text-align: center;
 }
-.left button {
+.lefts button {
   position: relative;
   top: 37%;
   background: transparent;
@@ -88,7 +88,7 @@
   cursor: pointer;
   left: 35%;
 }
-.left button:hover {
+.lefts button:hover {
   transform: scaleY(120%);
   transition: ease-out 50ms;
 }
@@ -134,13 +134,13 @@
     align-items: center;
     justify-content: center;
   }
-  .left h1{
+  .lefts h1{
     margin-top: 40px;
   }
-  .left button{
+  .lefts button{
     left: 30%;
   }
-  .left p{
+  .lefts p{
     padding: 0 15px;
   }
   .heading-fabric h1 {

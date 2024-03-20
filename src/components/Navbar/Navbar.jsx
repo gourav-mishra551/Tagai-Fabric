@@ -33,12 +33,14 @@ function Navbar() {
               </a>
             </li>
             </Link>
-
+            
+            <Link to = '/about'>
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
-                Catalog
+                About
               </a>
             </li>
+            </Link>
             <Link to= "/products">
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
@@ -65,6 +67,14 @@ function Navbar() {
           </div>
         </nav>
       </header>
+      <div class="floating_btn">
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=9810801688">
+      <div class="contact_icon">
+        <i class="fa fa-whatsapp my-float"></i>
+      </div>
+    </a>
+    <p class="text_icon">Talk to us?</p>
+  </div>
     </div>
   );
 }
