@@ -9,6 +9,8 @@ const About = () => {
     <div>
         <Navbar/>
         <img className='about-image' src={Image} alt="background" />
+
+        <hr class="sep-3" />
         <Footer/>
     </div>
   )

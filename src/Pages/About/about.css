@@ -2,3 +2,9 @@
     height: 90vh;
     width: 100%;
 }
+
+@media (max-width: 760px) {
+    .about-image{
+        height: 40vh;
+    }
+}
