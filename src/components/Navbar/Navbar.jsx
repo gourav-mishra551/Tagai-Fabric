@@ -22,10 +22,9 @@ function Navbar() {
       </div>
       <header className="App-header">
         <nav className={`${styles.navbar}`}>
-          {/* logo */}
-          <a href="#home" className={`${styles.logo}`}>
-            Tagai{" "}
-          </a>
+          <Link >
+            <img  className="logo-img" src="./1.png" alt="logo" />
+          </Link>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <Link to= '/'>            <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>

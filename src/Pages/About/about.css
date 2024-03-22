@@ -2,14 +2,20 @@
     height: 90vh;
     width: 100%;
 }
-.para{
+.parass{
     width: 80vw;
     margin: 0 auto 60px auto;
 
 }
-.para p{
+.parass p{
     font-size: 18px;
     font-weight: 500;
+}
+.about-img{
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 .work-img{
     height: 68vh;
@@ -26,9 +32,15 @@
     font-size: 18px;
     font-weight: 500;
 }
+.working{
+    margin-bottom: 20vh;
+}
 
 @media (max-width: 760px) {
     .about-image{
+        height: 40vh;
+    }
+    .about-img{
         height: 40vh;
     }
     .working{
@@ -40,5 +52,8 @@
         margin-bottom: 60px;
         height: 30vh;
         width: 50vw;
+    }
+    .working{
+        margin-bottom: 0;
     }
 }

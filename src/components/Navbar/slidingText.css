@@ -4,6 +4,17 @@
     overflow: hidden;
     height: 40px;
   }
+  .logo-img{
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  }
+
   
   #scroll-text {
     /* animation properties */

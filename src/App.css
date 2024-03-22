@@ -9,11 +9,7 @@
 .carousel-inner{
   height: 660px !important;
 }
-@media (max-width: 760px) {
-.carousel-inner{
-  height: 222px !important ;
-}
-}
+
 
 a{
   text-decoration:none;

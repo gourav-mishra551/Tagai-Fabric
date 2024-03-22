@@ -11,7 +11,7 @@ const About = () => {
       <img className="about-image" src={Image} alt="background" />
       <hr className="sep-3" />
       <h1 className="heading">Something about us</h1>
-      <div className="para">
+      <div className="parass">
       <p>
         Welcome to <b>Tagai</b>, your ultimate destination for quality
         fabrics and creative inspiration. Nestled in the heart of
@@ -43,6 +43,9 @@ const About = () => {
         all your fabric endeavors.
       </p>
       </div> 
+      <div className="div">
+        <img className="about-img" src="./fabric.jpg" alt="plants to clothes" />
+      </div>
       <h1 className="heading">Our working Stations</h1>
       <div className="working">
         <div className="left-work">

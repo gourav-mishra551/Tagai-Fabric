@@ -14,6 +14,7 @@ const Contact = () => {
         <div className="left">
         Consult Your Clothing Collection With Our Experts.
         </div>
+        
       <div id="container">
         <div className="right">
           <h1 className="contact" id="#h1">&bull; Keep in Touch &bull;</h1>
@@ -83,7 +84,7 @@ const Contact = () => {
         </div>
       </div>
       </div>
-      {/* https://api.whatsapp.com/send?phone=919327282918 */}
+      
       <Footer />
     </div>
   );

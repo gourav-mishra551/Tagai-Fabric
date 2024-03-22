@@ -20,7 +20,7 @@
   margin-top: 20px;
 }
 #container {
-  background: #fff7ed;
+  background: #F9F7F5;
 }
 
 button {
@@ -65,7 +65,7 @@ textarea {
   align-items: center;
 }
 #container {
-  border: solid 3px #474544;
+  
   margin: 60px auto;
   position: relative;
 }
