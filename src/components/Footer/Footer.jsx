@@ -22,22 +22,8 @@ const Footer = () => {
               <div class="footer-logo">
                 <a class="footer-logo-link" href="#">
                   <span class="hidden-link-text">LOGO</span>
-                  <h1>LOGO</h1>
+                  <h1>TAGAI</h1>
                 </a>
-              </div>
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Get Started</h2>
-                <ul id="menu-get-started" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Start</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Documentation</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Installation</a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div class="footer-content-column">
@@ -52,17 +38,6 @@ const Footer = () => {
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a href="#">Careers</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Legal</h2>
-                <ul id="menu-legal" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                    <a href="#">Privacy Notice</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Terms of Use</a>
                   </li>
                 </ul>
               </div>
@@ -81,18 +56,7 @@ const Footer = () => {
                       Service Status
                     </a>
                   </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Security</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Blog</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                    <a href="#">Customers</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Reviews</a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -118,11 +82,12 @@ const Footer = () => {
                   {" "}
                   <a
                     class="footer-call-to-action-link"
-                    href="tel:0124-64XXXX"
+                    href="tel:9810801688"
                     target="_self"
                   >
                     {" "}
-                    0124-64XXXX{" "}
+                    9810801688
+                    {" "}
                   </a>
                 </p>
               </div>

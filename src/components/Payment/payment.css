@@ -9,7 +9,7 @@
 }
 .heading{
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 38px;
     margin-bottom: 50px;
     text-decoration: underline;
@@ -31,6 +31,8 @@
 
 .child h3{
     margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .headerImg{
     margin-top: 10vh;
@@ -54,6 +56,7 @@
     .child h3{
         font-size: 16px;
         text-align: center;
+        font-weight: 500;
     }
     .child img{
         height: 40px;

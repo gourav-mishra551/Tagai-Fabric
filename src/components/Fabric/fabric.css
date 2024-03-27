@@ -2,7 +2,7 @@
   margin-top: 40px;
 }
 .heading-fabric h1 {
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: underline;
   text-decoration-color: #b88846;
   text-underline-offset: 12px;
@@ -33,12 +33,12 @@
     25;
 }
 .fabric-text {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   text-align: center;
 }
 .fabric-para {
-  font-weight: 400;
+  font-weight: 500;
   width: 80vw;
   margin: 0 auto;
   font-size: 18px;
@@ -73,6 +73,9 @@
   position: relative;
   top: 32%;
   text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  width: 550px;
 }
 .lefts button {
   position: relative;
@@ -83,7 +86,7 @@
   border: 2px solid black;
   border-radius: 5px;
   outline: none;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0.8rem 2rem;
   cursor: pointer;
   left: 35%;
@@ -158,8 +161,8 @@
     border-radius: 100%;
   }
   .fabric-text {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     text-align: center;
   }
   .fabric-para{

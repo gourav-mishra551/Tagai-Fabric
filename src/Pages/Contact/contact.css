@@ -6,7 +6,7 @@
 } */
 
 .heading-contact{
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: underline;
   text-decoration-color: #b88846;
   text-underline-offset: 12px;
@@ -47,7 +47,7 @@ textarea {
 .left {
   margin-left: 5vw;
   width: 40vw;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: underline;
   text-decoration-color: #b88846;
   text-underline-offset: 12px;
@@ -196,7 +196,7 @@ textarea {
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
   font-size: 0.875em;
-  font-weight: bold;
+  font-weight: 500;
   outline: none;
   padding: 20px 35px;
   text-transform: uppercase;
