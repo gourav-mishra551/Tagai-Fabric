@@ -37,6 +37,7 @@
       width: 70vw;
       margin: 0 auto;
       margin-bottom: 30px;
+      text-underline-offset: 5px;
   }
   .carousel-inner{
     height: 444px !important ;
