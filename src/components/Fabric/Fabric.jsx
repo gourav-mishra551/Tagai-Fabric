@@ -1,4 +1,5 @@
 import "./fabric.css";
+import { Link } from "react-router-dom";
 const images = [
   {
     id: 1,
@@ -128,7 +129,9 @@ const Fabric = () => {
         <div className="lefts">
           <h1>Women's collection </h1>
           <p className="para">There is no other apparel that makes a woman look as poised as the saree.</p>
+          <Link to = '/products'>
           <button >View More</button>
+          </Link>
         </div>
       </div>
       </div>
