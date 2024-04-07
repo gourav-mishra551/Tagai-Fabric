@@ -1,0 +1,134 @@
+.structure{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  background: url("https://media.giphy.com/media/TJF7QuAbNdEIBMPAjV/giphy.gif?cid=ecf05e47t3qg3xgsud8fwzv4ebmrcfigntws48nktfixb5oh&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center;
+  background-size: cover;
+  padding: 20px 0;
+}
+.structure-main{
+  margin-top: 10vh;
+}
+.sweing > td > tr{
+  width: 100%;
+}
+#customers {
+  /* the next line does the trick */
+  background-color: rgba(255, 255, 255, .65); /* change this per your requirements */
+  /* just for the demo */
+  width: 80vw;
+  margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .centre{
+    width: 80vw;
+    margin: 0 auto;
+  }
+  #customers td, #customers th {
+    border: 2px solid #ddd;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 360px;
+    background-color: #004658;
+    color: white;
+  }
+
+  .womens {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh auto;
+  
+  }
+  .womens img {
+    height: 90vh;
+    width: 40vw;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  .figure {
+    max-width: 100%;
+  }
+  .lefts h1 {
+    position: relative;
+    top: 30%;
+  }
+  .lefts p {
+    position: relative;
+    top: 32%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 550px;
+  }
+  .lefts button {
+    position: relative;
+    top: 37%;
+    background: transparent;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    left: 35%;
+  }
+  .lefts button:hover {
+    transform: scaleY(120%);
+    transition: ease-out 50ms;
+  }
+  @media screen and (max-width: 1280px) {
+    .womens{
+      display: flex;
+      flex-direction: row;
+      height: 40vh;
+      width: 100%;
+    }
+    .womens img{
+      height: 40vh;
+      width: 50vw;
+    }
+  }
+  @media screen and (max-width: 680px){
+    .structure-main{
+      margin-top: 5vh;
+    }
+    #customers th {
+      width: auto;
+    }
+    .lefts h1{
+      margin-top: 40px;
+    }
+    .lefts button{
+      left: 30%;
+    }
+    .lefts p{
+      padding: 0 15px;
+    }
+    .womens{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column-reverse;
+    }
+    .womens img{
+      height: 40vh;
+      width: 80vw;
+      margin: 0 auto;
+      margin-top: 12vh;
+      margin-bottom: 10vh;
+    }
+    .lefts p{
+      width: 420px;
+    }
+  }

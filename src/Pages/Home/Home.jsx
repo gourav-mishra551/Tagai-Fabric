@@ -7,6 +7,7 @@ import images from "../../images";
 import Footer from "../../components/Footer/Footer";
 import Payment from "../../components/Payment/Payment";
 import Testimonial from "../../components/Testimonial/Testiomonial";
+import Structure from "../../components/Infrastructure/Structure";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <Slider images={images} />
       <Fabric />
+      <Structure/>
       <Payment />
 
       <Testimonial />

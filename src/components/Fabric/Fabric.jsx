@@ -121,20 +121,6 @@ const Fabric = () => {
           </div>
         ))}
       </div>
-      <div className="women-main">
-      <div className="womens">
-        <div className="figure">
-        <img class="Sirv image-main" src="./Designer (2).png" />
-        </div>
-        <div className="lefts">
-          <h1>Women's collection </h1>
-          <p className="para">There is no other apparel that makes a woman look as poised as the saree.</p>
-          <Link to = '/products'>
-          <button >View More</button>
-          </Link>
-        </div>
-      </div>
-      </div>
     </div>
 
   );
