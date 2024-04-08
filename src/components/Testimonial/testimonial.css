@@ -265,17 +265,15 @@
   #mz-gallery figure {
     margin-right: 20px;
   }
+  #mz-gallery figure figcaption{
+    bottom: 22px;
+    font-size: 14pt;
+  }
   #mz-gallery figure:nth-child(1) {
     margin-left: 20px;
   }
 }
 
-@media (max-height: 425px) {
-  #mz-gallery figure figcaption {
-    font-size: 14pt;
-    line-height: 20pt;
-  }
-}
 
 @media (max-height: 340px) {
   #mz-gallery {

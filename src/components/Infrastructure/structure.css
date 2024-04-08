@@ -49,9 +49,9 @@
   
   }
   .womens img {
-    height: 90vh;
-    width: 40vw;
-    border-radius: 10%;
+    height: 80vh;
+    width: 35vw;
+    border-radius: 2%;
     cursor: pointer;
   }
   .figure {
@@ -114,6 +114,7 @@
     }
     .lefts p{
       padding: 0 15px;
+      width: 390px !important;
     }
     .womens{
       display: flex;

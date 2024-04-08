@@ -77,8 +77,8 @@ const Structure = () => {
 
                 </tr>
                 <tr>
-                    <td>Sewing Line</td>
-                    <td>30 rows and 3 columns, i.e., 30*3</td>
+                    <td>Total </td>
+                    <td>150 machines</td>
                 </tr>
             </table>
             </div>
@@ -86,7 +86,7 @@ const Structure = () => {
         <div className="women-main">
       <div className="womens">
         <div className="figure">
-        <img class="Sirv image-main" src="./Designer (2).jpg" />
+        <img class="Sirv image-main" src="./Tagai.jpg" />
         </div>
         <div className="lefts">
           <h1 className='febric-heading'>Women's collection </h1>
