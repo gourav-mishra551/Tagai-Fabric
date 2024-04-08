@@ -23,7 +23,7 @@ const Structure = () => {
 
                         </tr>
                         <tr>
-                            <td>10</td>
+                            <td>110</td>
                             <td>Singer</td>
                         </tr>
                         <tr>
