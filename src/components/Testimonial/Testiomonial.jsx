@@ -35,7 +35,7 @@ import "./testimonial.css";
 const Testiomonial = () => {
   return (
     <div className="our">
-      <h1 className="febric-heading">We are Tagai Fashion & Design</h1>
+      <h1 className="febric-heading">Customised Fabric/Apparels</h1>
       <p className="fabric-para">
         Custom printing of design are also available in our service , we can
         print specific designs according to our customers.
