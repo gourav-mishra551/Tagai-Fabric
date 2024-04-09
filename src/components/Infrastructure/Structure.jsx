@@ -86,7 +86,7 @@ const Structure = () => {
         <div className="women-main">
       <div className="womens">
         <div className="figure">
-        <img class="Sirv image-main" src="./Tagai.jpg" />
+        <img class="Sirv image-main" src="./TAGAI (1).jpg" />
         </div>
         <div className="lefts">
           <h1 className='febric-heading'>Women's collection </h1>

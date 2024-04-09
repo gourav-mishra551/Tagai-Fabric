@@ -116,7 +116,7 @@ const Testiomonial = () => {
               alt="Sunset Over Mountains"
               className="img-fabric"
             />
-            <figcaption>Sewing Fabric</figcaption>
+            <figcaption>Stiching Fabric</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -129,7 +129,7 @@ const Testiomonial = () => {
               alt="SUV in Front of Building"
               className="img-fabric"
             />
-            <figcaption>Fabric Making</figcaption>
+            <figcaption>Fitting Checking</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -138,7 +138,7 @@ const Testiomonial = () => {
 
           <figure>
             <img src={image4} alt="Classic Vehicle" className="img-fabric" />
-            <figcaption>Custom design</figcaption>
+            <figcaption>Packaging</figcaption>
             <div></div>
             <div></div>
             <div></div>

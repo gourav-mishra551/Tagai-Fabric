@@ -100,6 +100,12 @@
     }
   }
   @media screen and (max-width: 680px){
+    .centre{
+      width: 95vw;
+    }
+    .structure{
+      margin-bottom: 0;
+    }
     .structure-main{
       margin-top: 5vh;
     }
@@ -114,20 +120,22 @@
     }
     .lefts p{
       padding: 0 15px;
-      width: 390px !important;
+      width: 360px !important;
     }
     .womens{
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction:column-reverse;
+      margin: 0 auto;
     }
     .womens img{
-      height: 40vh;
-      width: 50vw;
+      height: 50vh;
+      width: 70vw;
       margin: 0 auto;
-      margin-top: 16vh;
-      margin-bottom: 10vh;
+      margin-top: 5vh;
+      margin-bottom: 0;
     }
     .lefts p{
       width: 420px;
