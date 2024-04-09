@@ -11,14 +11,14 @@ const Structure = () => {
             <table id="customers">
                 <tr>
                     <td>Plot</td>
-                    <td>2000 sq ft.</td>
+                    <td>6000 sq ft.</td>
 
                 </tr>
                 <tr>
                     <td>Machines</td>
                     <td className='sewing'>
                         <tr>
-                            <th>Amount</th>
+                            <th>Number of Machine</th>
                             <th>Machine</th>
 
                         </tr>

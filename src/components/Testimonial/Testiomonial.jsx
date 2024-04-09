@@ -81,7 +81,7 @@ const Testiomonial = () => {
       </div>
 
       {/* machines */}
-      <h1 className="febric-heading">Glimps of our Work</h1>
+      <h1 className="febric-heading " style={{marginTop:"20px"}}>Glimps of our Work</h1>
       <div id="mz-gallery-container">
         <div id="mz-gallery">
           <figure>
@@ -99,7 +99,7 @@ const Testiomonial = () => {
               alt="Sunset Over Mountains"
               className="img-fabric"
             />
-            <figcaption>Custom design</figcaption>
+            <figcaption>Sewing Fabric</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -112,7 +112,7 @@ const Testiomonial = () => {
               alt="SUV in Front of Building"
               className="img-fabric"
             />
-            <figcaption>Custom design</figcaption>
+            <figcaption>Fabric Making</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -130,7 +130,7 @@ const Testiomonial = () => {
 
           <figure>
             <img src={image5} alt="Stacked Rocks" className="img-fabric" />
-            <figcaption>Custom design</figcaption>
+            <figcaption>Denim Work</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -138,7 +138,7 @@ const Testiomonial = () => {
           </figure>
           <figure>
             <img src={image7} alt="Statue of Liberty" className="img-fabric" />
-            <figcaption>Custom Design</figcaption>
+            <figcaption>Fabric From Machine</figcaption>
             <div></div>
             <div></div>
             <div></div>
@@ -146,7 +146,7 @@ const Testiomonial = () => {
           </figure>
           <figure>
             <img src={image8} alt="Statue of Liberty" className="img-fabric" />
-            <figcaption>Custom Design</figcaption>
+            <figcaption>Thread Making</figcaption>
             <div></div>
             <div></div>
             <div></div>
