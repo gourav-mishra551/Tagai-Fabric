@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/Footer";
 import Payment from "../../components/Payment/Payment";
 import Testimonial from "../../components/Testimonial/Testiomonial";
 import Structure from "../../components/Infrastructure/Structure";
+import Video from "../../components/Video/Video";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar />
       <Slider images={images} />
       <Fabric />
+      <Video/>
       <Structure/>
       <Payment />
 

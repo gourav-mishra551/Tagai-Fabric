@@ -1,0 +1,26 @@
+.video-main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh ;
+  width: 80vw;
+  justify-content: space-between;
+  margin: 0 auto;
+ 
+}
+@media screen and (max-width: 680px){
+    .video-main{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video{
+        margin:10px 0px;
+        width: 300px !important;
+        height: 300px !important;
+        overflow-x: auto;
+        background-size: cover;
+        
+        
+    }
+    
+}

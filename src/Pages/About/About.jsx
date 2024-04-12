@@ -50,7 +50,7 @@ const About = () => {
       <div className="working">
         <div className="left-work">
             Our production unit situated in,  <b>Bihar</b> for Silk <br /><hr className="sep-3"/>
-             <b>Haryana </b> for Die and ,<br /><hr className="sep-3"/>
+             <b>Haryana </b> for Dye and ,<br /><hr className="sep-3"/>
              <b>Jharkhand </b> for  handwoven yarn  to fabric
         </div>
         <div className="right-work">
