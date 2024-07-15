@@ -91,6 +91,21 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
+              <div class="footer-call-to-action">
+                <h2 class="footer-call-to-action-title"> Address</h2>
+                <p class="footer-call-to-action-link-wrapper">
+                  {" "}
+                  <a
+                    class="footer-call-to-action-link"
+                    href="tel:9810801688"
+                    target="_self"
+                  >
+                    {" "}
+                    E-39 , Sector 7 , Noida 201301
+                    {" "}
+                  </a>
+                </p>
+              </div>
             </div>
             <div class="footer-social-links">
               {" "}
