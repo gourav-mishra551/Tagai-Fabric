@@ -15,7 +15,7 @@ const About = () => {
       <p>
         Welcome to <b>Tagai</b>, your ultimate destination for quality
         fabrics and creative inspiration. Nestled in the heart of
-        <b> Delhi okhla and Nehru Place</b>, 
+        <b> Delhi NCR , Noida E-39 , Sector 7 </b>, 
         <br /><hr className="sep-3" />we pride ourselves on offering an extensive selection
         of premium fabrics to fuel your passion for sewing, crafting, and
         design. With a rich heritage spanning <b>22+</b> years, we have
@@ -49,8 +49,8 @@ const About = () => {
       <h1 className="heading">Our working Stations</h1>
       <div className="working">
         <div className="left-work">
-            Our production unit situated in,  <b>Bihar</b> for Silk <br /><hr className="sep-3"/>
-             <b>Haryana </b> for Dye and ,<br /><hr className="sep-3"/>
+            Our production unit situated in,  <b>Bihar (Bhagalpur)</b> for Silk <br /><hr className="sep-3"/>
+             <b>Haryana (Faridabad) </b> for Dye and ,<br /><hr className="sep-3"/>
              <b>Jharkhand </b> for  handwoven yarn  to fabric
         </div>
         <div className="right-work">

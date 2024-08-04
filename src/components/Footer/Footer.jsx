@@ -101,7 +101,7 @@ const Footer = () => {
                     target="_self"
                   >
                     {" "}
-                    E-39 , Sector 7 , Noida 201301
+                    E-39 , Sector 7 , Noida 201301 Uttar Pradesh
                     {" "}
                   </a>
                 </p>
